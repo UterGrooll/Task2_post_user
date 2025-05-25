@@ -1,0 +1,96 @@
+* {
+    box-sizing: border-box;
+}
+
+body {
+    font-family: Arial, sans-serif;
+    background: #f4f4f4;
+    padding: 20px;
+    text-align: center;
+}
+
+.tabs {
+    margin-bottom: 20px;
+}
+
+.tabs button {
+    padding: 10px 20px;
+    margin: 0 10px;
+    font-size: 16px;
+    cursor: pointer;
+    border: none;
+    background-color: #ddd;
+    border-radius: 5px;
+    transition: background 0.3s;
+}
+
+.tabs button:hover {
+    background-color: #bbb;
+}
+
+#author-list {
+    margin: 20px 0;
+}
+
+#author-list button {
+    margin: 5px;
+    padding: 8px 15px;
+    font-size: 14px;
+    border: 1px solid #aaa;
+    border-radius: 5px;
+    background-color: white;
+    cursor: pointer;
+    transition: background 0.3s;
+}
+
+#author-list button:hover {
+    background-color: #eee;
+}
+
+.hidden {
+    display: none;
+}
+
+#output {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 20px;
+}
+
+.card {
+    background: white;
+    padding: 20px;
+    width: 300px;
+    border-radius: 10px;
+    box-shadow: 0 2px 8px rgba(0, 0, 0, 0.1);
+    text-align: left;
+}
+
+.card-title {
+    font-size: 16px;
+    font-weight: bold;
+    margin-bottom: 10px;
+    color: #333;
+}
+
+.card-body {
+    font-size: 14px;
+    color: #555;
+    margin-bottom: 10px;
+}
+
+.card-footer {
+    font-size: 12px;
+    color: #999;
+    text-align: right;
+}
+
+#site-footer {
+    margin-top: 40px;
+    text-align: center;
+    font-size: 14px;
+    color: #888;
+    padding: 20px 0;
+    border-top: 1px solid #ddd;
+}
