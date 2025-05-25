@@ -3,8 +3,8 @@
 }
 
 body {
-    font-family: Arial, sans-serif;
-    background: #f4f4f4;
+    font-family: "Comic Sans MS", sans-serif;
+    background: linear-gradient(to right, #dfe9f3, #ffffff);
     padding: 20px;
     text-align: center;
 }
@@ -19,8 +19,9 @@ body {
     font-size: 16px;
     cursor: pointer;
     border: none;
-    background-color: #ddd;
+    background-color: #e6f0ff;
     border-radius: 5px;
+    box-shadow: 0 2px 8px rgba(0, 0, 0, 0.3);
     transition: background 0.3s;
 }
 
@@ -35,10 +36,11 @@ body {
 #author-list button {
     margin: 5px;
     padding: 8px 15px;
-    font-size: 14px;
+    font-size: 16px;
     border: 1px solid #aaa;
+    background-color: #e6f0ff;
     border-radius: 5px;
-    background-color: white;
+    box-shadow: 0 2px 8px rgba(0, 0, 0, 0.3);
     cursor: pointer;
     transition: background 0.3s;
 }
@@ -59,12 +61,12 @@ body {
 }
 
 .card {
-    background: white;
+    background: #e6f0ff;
     padding: 20px;
     width: 300px;
-    border-radius: 10px;
-    box-shadow: 0 2px 8px rgba(0, 0, 0, 0.1);
-    text-align: left;
+    border-radius: 5px;
+    box-shadow: 0 2px 8px rgba(0, 0, 0, 0.3);
+    text-align: center;
 }
 
 .card-title {
