@@ -1,8 +1,8 @@
 Задание_2
 Сопоставить пользователей и написанные ими посты
 
-Ссылка на JSON users: link 
-Ссылка на JSON posts: link
+Ссылка на JSON users: [link ](https://jsonplaceholder.typicode.com/users)
+Ссылка на JSON posts: [link](https://jsonplaceholder.typicode.com/posts)
 
 Требуется реализовать следующее:
 1) Вывести посты, состоящие из:
